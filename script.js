@@ -95,6 +95,5 @@ function game() {
             i--;
         }
     }
-    
     gameEnd(playerScore, computerScore);
 }
