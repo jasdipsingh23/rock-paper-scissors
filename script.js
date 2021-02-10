@@ -1,7 +1,7 @@
 // Returns a random selection of rock, paper, or scissors
 function computerPlay() {
-    let options = [rock, paper, scissors];
-    return options(randomIndex(options.length));
+    let options = ["rock", "paper", "scissors"];
+    return options[randomIndex(options.length)];
 }
 
 // Helper function returns random integer less than maxSize parameter
@@ -64,10 +64,12 @@ function gameEnd(playerScore, computerScore) {
 // Continues to prompt user if invalid selection given
 function playerPlay() {
     let playerSelection = prompt("Make your selection: Rock, Paper, Scissors").toLowerCase();
-    let options = [rock, paper, scissors];
+    let options = ["rock", "paper", "scissors"];
+
     while(!options.includes(playerSelection)) {
         playerSelection = prompt("Invalid selection! Pick again: Rock, Paper, Scissors").toLowerCase();
     }
+
     return playerSelection;
 }
 
