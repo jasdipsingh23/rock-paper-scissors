@@ -1,8 +1,11 @@
-This project plays a simple game of Rock, Paper Scissors. 
-It is the second project in The Odin Project's Foundations course.
+This project plays a simple game of Rock, Paper Scissors.
+Best of 5 rounds wins!
 
-The purpose of this project is to demonstrate how to build applicaions with JavaScript.
+The user plays by selecting buttons. 
+Displays winner of round, overall score, and overall winner.
 
-Main topics are: Loops, Code Structure, Breaking problem down to fundamentals.
+The purpose of this project is to demonstrate how to build applicaions with HTML/ CSS/ JavaScript.
+No style applied (...yet).
 
-This project shows a beginner-level understanding of JavaScript.
+Main topics include: loops, conditional statements, DOM manipulation, event listeners.
+
